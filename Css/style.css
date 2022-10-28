@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+
+  nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 44px;
+  }
+  
+  a:hover {
+    text-decoration: underline 5px yellow;
+  }
+
+  .main-heading {
+    font-size: 7em;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-family:serif;
+  }
+
+  .heading {
+    text-decoration: underline 4px #caca24;
+    color: white;
+    margin-top: 100px;
+    font-size: 2em;
+    margin-left: 4em;
+    font-family:sans-serif;
+  }
+
+  .heading2 {
+    color: white;
+    margin-left: 5em;
+    margin-top: 30px;
+    font: 2em monospace;
+    letter-spacing: 0.5px;
+  }
+
+  .paragraph {
+    color: white;
+    margin-left: 8em;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+
+  .button1 {
+    border: 2px solid black;
+    background-color: #ffdb11;
+    padding: 9px;
+    color: black;
+    margin-left: 9em;
+    font-size: 1.6em;
+    letter-spacing: 0.4px;
+    font-family: monospace;
+  }
+
+  .button1:hover {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+  .border {
+    border: 4px solid  #ffdb11;
+    color: white;
+    width: 500px;
+    margin-left: 700px;
+    position: sticky;
+    margin-top: -190px;
+    text-align: center;
+  }
+
+  .border p {
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+
+  section {
+    background: transparent;
+  } 
+
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: slideInDown;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+  }
+
+  .img{
+    margin-left: 10px;
+    position: sticky;
+  }
+
+  .btn {
+    border: 1px solid white;
+    padding: 42px 42px 42px 42px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 21px 6px rgb(163 152 152 / 50%);
+    font-family: serif;
+  }
+
+  .btn:hover {
+    border: 1px solid #ffdb11;
+  }
+
+  .animate {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: slideInLeft;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+  }
+  
+  .animate2 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: slideInRight;
+    animation-duration: 4s;
+    animation-delay: 2;
+    animation-iteration-count: 1;
+  }
